@@ -1,0 +1,12 @@
+@mixin button(){
+    button{
+        padding: 1rem 2rem;
+        color: $white;
+        background-color: $primary-color;
+        font-size: 1.3rem;
+        font-weight: $font-weight;
+        border-radius: 1rem;
+        border: 1px solid $white;
+        margin: 0 2rem;
+    }
+}
