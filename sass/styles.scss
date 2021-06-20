@@ -1,0 +1,54 @@
+$primary-color: #0c181f;
+$secondary-color: #3ded97;
+$white: #ffffff;
+$font-family: "Lato", sans-serif;
+$font-size: 1.3rem;
+$font-big: 1.9rem;
+$font-weight: 530;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $primary-color;
+  color: $white;
+}
+a {
+  text-decoration: none;
+}
+
+.navbar-container {
+  nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2rem;
+    // left side
+    .nav-left {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+    }
+    h1 {
+      font-family: $font-family;
+      font-size: $font-big;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      list-style-type: none;
+      li {
+        margin: 0 2rem;
+        a {
+          color: $white;
+          font-family: $font-family;
+          font-size: $font-size;
+          font-weight: $font-weight;
+        }
+      }
+    }
+  }
+}
