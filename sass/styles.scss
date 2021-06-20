@@ -191,3 +191,38 @@ a {
     @extend %header;
   }
 }
+
+.services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 10rem;
+}
+.case {
+  img {
+    width: 25rem;
+    height: 30rem;
+  }
+  h3 {
+    font-size: 3rem;
+    @extend %header;
+  }
+  h6 {
+    font-size: 1.1rem;
+    @extend %header;
+  }
+}
+.services-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.services-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}

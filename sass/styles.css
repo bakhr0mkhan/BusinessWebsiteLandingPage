@@ -70,7 +70,7 @@ a {
   font-weight: 530;
 }
 
-.container-content .content-right h1, .container-content .content-right h5, .about-left h1, .about-left h6, .about-left div h3, .about-left div h5, .service h3, .service h6 {
+.container-content .content-right h1, .container-content .content-right h5, .about-left h1, .about-left h6, .about-left div h3, .about-left div h5, .service h3, .service h6, .case h3, .case h6 {
   font-family: "Lato", sans-serif;
 }
 
@@ -286,5 +286,66 @@ a {
 
 .service h6 {
   font-size: 1.2rem;
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 10rem;
+}
+
+.case img {
+  width: 25rem;
+  height: 30rem;
+}
+
+.case h3 {
+  font-size: 3rem;
+}
+
+.case h6 {
+  font-size: 1.1rem;
+}
+
+.services-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.services-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 /*# sourceMappingURL=styles.css.map */
